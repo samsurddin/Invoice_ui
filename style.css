@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    height: 40px;
+    padding-top: 3px;
+} 
+.select2-container--default .select2-selection--multiple {
+    padding: 7px;
+}
